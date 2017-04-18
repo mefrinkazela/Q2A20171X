@@ -48,8 +48,8 @@
 
 
     			<xs:pattern value=""></xs:pattern>
-    			<xs:pattern value="PRAK/MK[0-9]{2}/BB[0-9]{3}"></xs:pattern>
-    			<xs:pattern value="TEO/MK[0-9]{2}/AA[0-9]{3}"></xs:pattern>
+    			<xs:pattern value="PRAK/MK[0-9]{2}/[A-Z]{2}[0-9]{3}"></xs:pattern>
+    			<xs:pattern value="TEO/MK[0-9]{2}/[A-Z]{2}[0-9]{3}"></xs:pattern>
     		</xs:restriction>
     	</xs:simpleType>
     </xs:element>
